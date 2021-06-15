@@ -5,7 +5,7 @@ import Counter from './Counter.js'
 import Info from './Info.js'
 
 const App = ()=> {
-  return <Counter />;
+  // return <Counter />;
   // const [visible, setVisible] = useState(false);
   // return (
   //   <div>
@@ -17,6 +17,7 @@ const App = ()=> {
   //     {visible && <Info /> }
   //   </div>
   // );
+  return <Info />
 };
 
 export default App;
